@@ -2,9 +2,9 @@
 <section id="content">
         <div class="container content">     
         <!-- Service Blcoks -->
-        <h4 style="color: #0000FF;">Latest Jobs </h4>
+        <h4 style="color: #CA5D33;">Latest Jobs </h4>
             
- <table id="dash-table" class="table table-hover">
+ <table id="dash-table" class="table table-hover" style="color: #B5E943;s">
      <thead>
          <th>Job Title</th>
          <th>Company</th>
@@ -42,7 +42,7 @@
     </section> 
 
 
-  <section id="call-to-action-2" style="background-color: #00BA57;">
+  <section id="call-to-action-2" style="background-color: #d1d7a4;">
     <div class="container">
       <div class="row">
         <div class="col-md-10 col-sm-9">
