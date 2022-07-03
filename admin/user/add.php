@@ -1,11 +1,19 @@
                       <?php 
-                        if (!isset($_SESSION['ADMIN_USERID'])){
+                        if (!isset($_SESSION['ADMIN_USERID'])) {
                           redirect(web_root."admin/index.php");
+                          
+                           
                          }
 
                       $autonum = New Autonumber();
                       $res = $autonum->set_autonumber('userid');
-
+                      
+                          
+                      if ($_SESSION['ADMIN_ROLE']!='Administrator') {
+                        # code... 
+                
+                      redirect(web_root."admin/index.php");
+                      }
                        ?> 
  
          <div class="col-lg-12">

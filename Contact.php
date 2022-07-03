@@ -13,8 +13,8 @@
 						</div>
 	<div class="row">
 								<div class="col-md-6">
-									<p>Email: shaqoraadis@gmail.com</p>
-									<p>Phone: 4247792</p>
+									<p>Email: saidadan5@gmail.com</p>
+									<p>Phone: 0633512554</p>
 								  	
 		   <!-- Form itself -->
           <form name="sentMessage" id="contactForm"  novalidate>

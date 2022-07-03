@@ -9,8 +9,8 @@
 				</div>
 				<div class="col-sm-6 col-sm-offset-6 col-xs-12 content">
 					<div class="about-text">
-						<h3>Who is Shaqo Raadis</h3>
-						<p>Shaqo Raadis is the place for jobseekers to find the job of their dreams and 
+						<h3>Who is Shaqo doon</h3>
+						<p>Shaqo doon is the place for jobseekers to find the job of their dreams and 
 							for recruiters to advertise their vacancies to find/reach the right candidates
 							easily and cost-effectively.</p>
 						 <p>Shaqo Raadis was founded August 2021. The main objectives of maintining this 
@@ -158,7 +158,7 @@
 										<!-- Image -->
 										<img class="img-responsive" src="img/team1.jpg" alt="">
 										<!-- Name -->
-										<h4>Abdimajid</h4>
+										<h4>Yaasir</h4>
 										<span class="deg">Creative</span> 
 									</div>
 								</div>
@@ -168,7 +168,7 @@
 										<!-- Image -->
 										<img class="img-responsive" src="img/team2.jpg" alt="">
 										<!-- Name -->
-										<h4>Yahya</h4>
+										<h4>sead adan</h4>
 										<span class="deg">Programmer</span> 
 									</div>
 								</div>

@@ -61,7 +61,7 @@
           <div class="container">
             <div class="row">
               <div class="col-md-12">      
-                <p class="pull-left hidden-xs"><i class="fa fa-phone"></i>Tel No. (+252) 063-4247792</p>
+                <p class="pull-left hidden-xs"><i class="fa fa-phone"></i>Tel No. (+252) 063-3512554</p>
                 <?php if (isset($_SESSION['APPLICANTID'])) { 
 
                     $sql = "SELECT count(*) as 'COUNTNOTIF' FROM `tbljob` ORDER BY `DATEPOSTED` DESC";
@@ -99,7 +99,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="<?php echo web_root; ?>index.php">Shaqo Raadis<!-- <img src="<?php echo web_root; ?>plugins/home-plugins/img/logo.png" alt="logo"/> --></a>
+                    <a class="navbar-brand" href="<?php echo web_root; ?>index.php">Shaqo Doon<!-- <img src="<?php echo web_root; ?>plugins/home-plugins/img/logo.png" alt="logo"/> --></a>
                 </div>
                 <div class="navbar-collapse collapse ">
                     <ul class="nav navbar-nav">
@@ -193,8 +193,8 @@
           <strong>Our Company</strong><br>
           Down town Road,Near Burj Omar tower.</address>
           <p>
-            <i class="icon-phone"></i> (252) 063-3814606 <br>
-            <i class="icon-envelope-alt"></i> Shaqoraadis@gmail.com
+            <i class="icon-phone"></i> (252) 063-3512554 <br>
+            <i class="icon-envelope-alt"></i> saidadan5@gmail.com
           </p>
         </div>
       </div>
@@ -245,7 +245,7 @@
         <div class="col-lg-6">
           <div class="copyright">
             <p>
-              <span>&copy; Shaqo Raadis 2021 All right reserved.  
+              <span>&copy; Shaqo Doon 2021 All right reserved.  
             </p>
           </div>
         </div>

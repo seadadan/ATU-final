@@ -235,7 +235,7 @@
                       <img src="<?php echo web_root; ?>/dist/img/majo.jpg" alt="" class="pull-left" />
                       <!-- <img alt="" src="/dist/img/user3-128x128.jpg" class="pull-left"> -->
                       <div class="pull-left">
-                        <span class="testimonials-name">Abdimajid Hassan</span>
+                        <span class="testimonials-name">sead adan jama</span>
                         <span class="testimonials-post">Technical Director</span>
                       </div>
                       </div>
