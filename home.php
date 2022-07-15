@@ -4,7 +4,7 @@
         <!-- Service Blcoks -->
         <h4 style="color: #CA5D33;">Latest Jobs </h4>
             
- <table id="dash-table" class="table table-hover" style="color: #B5E943;s">
+ <table id="dash-table" class="table table-hover" style="color: #00afb9">
      <thead>
          <th>Job Title</th>
          <th>Company</th>

@@ -57,7 +57,7 @@
  
   <!-- start header -->
   <header>
-        <div class="topbar navbar-fixed-top" style="background-color: #00BA57;">
+        <div class="topbar navbar-fixed-top" style="background-color: #84a59d;">
           <div class="container">
             <div class="row">
               <div class="col-md-12">      
@@ -106,7 +106,7 @@
                         <li class="<?php echo !isset($_GET['q'])? 'active' :''?>"><a href="<?php echo web_root; ?>index.php">Home</a></li> 
                         <li class="dropdown">
                           <a href="#" data-toggle="dropdown" class="dropdown-toggle" >Job Search <b class="caret"></b></a>
-                          <ul class="dropdown-menu" style="background-color: #00BA57;">
+                          <ul class="dropdown-menu" style="background-color: ##;">
                               <li class="<?php  if(isset($_GET['q'])) { if($_GET['q']=='advancesearch'){ echo 'active'; }else{ echo ''; }}  ?>"><a href="<?php echo web_root; ?>index.php?q=advancesearch">Advance Search</a></li>
                               <li><a href="<?php echo web_root; ?>index.php?q=search-company">Job By Company</a></li>
                               <li><a href="<?php echo web_root; ?>index.php?q=search-function">Job By Function</a></li>
