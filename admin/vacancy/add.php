@@ -4,6 +4,12 @@
       redirect(web_root."admin/index.php");
      }
 
+     if ($_SESSION['ADMIN_ROLE']!='Administrator') {
+      # code... 
+
+    redirect(web_root."admin/index.php");
+    }
+
 ?>
  <form class="form-horizontal span6" action="controller.php?action=add" method="POST">
 

@@ -7,6 +7,11 @@
   $jobid = $_GET['id'];
   $job = New Jobs();
   $res = $job->single_job($jobid);
+  if ($_SESSION['ADMIN_ROLE']!='Administrator') {
+    # code... 
+
+  redirect(web_root."admin/index.php");
+  }
 
 ?> 
 <form class="form-horizontal span6" action="controller.php?action=edit" method="POST">

@@ -5,6 +5,8 @@ require_once("../../include/initialize.php");
       redirect(web_root."admin/index.php");
      }
 
+     
+
 $view = (isset($_GET['view']) && $_GET['view'] != '') ? $_GET['view'] : '';
 $header=$view;
 $title="Company";
@@ -28,5 +30,7 @@ switch ($view) {
 		$content    = 'list.php';		
 }
 require_once ("../theme/templates.php");
+
+
 ?>
   

@@ -9,6 +9,11 @@
 }
   $user = New User();
   $singleuser = $user->single_user($USERID);
+  if ($_SESSION['ADMIN_ROLE']!='Administrator') {
+    # code... 
+
+  redirect(web_root."admin/index.php");
+  }
 
 ?> 
 

@@ -2,11 +2,17 @@
     if (!isset($_SESSION['ADMIN_USERID'])){
       redirect(web_root."admin/index.php");
      }
-
+       
 
   $companyid = $_GET['id'];
   $company = New Company();
   $res = $company->single_company($companyid);
+
+  if ($_SESSION['ADMIN_ROLE']!='Administrator') {
+    # code... 
+
+  redirect(web_root."admin/index.php");
+  }
 
 ?> 
  <form class="form-horizontal span6" action="controller.php?action=edit" method="POST">
