@@ -40,10 +40,10 @@ if (!isset($_SESSION['ADMIN_USERID'])){
 				  		$cur = $mydb->loadResultList(); 
 						foreach ($cur as $result) {
 				  		echo '<tr>';
-				  		// echo '<td width="5%" align="center"></td>';
-				  		// echo '<td>
-				  		//      <input type="checkbox" name="selector[]" id="selector[]" value="'.$result->CATEGORYID. '"/>
-				  		// 		' . $result->CATEGORIES.'</a></td>';
+				  		echo '<td width="5%" align="center"></td>';
+				  		echo '<td>
+				  		     <input type="checkbox" name="selector[]" id="selector[]" value="'.$result->CATEGORYID. '"/>
+				  				' . $result->CATEGORIES.'</a></td>';
 						    
 				  			echo '<td>' . $result->CATEGORY .'</td>';
 				  			echo '<td>' . $result->OCCUPATIONTITLE  .'</td>';
@@ -59,10 +59,10 @@ if (!isset($_SESSION['ADMIN_USERID'])){
 					
 				</table>
 						<div class="btn-group">
-				 <!--  <a href="index.php?view=add" class="btn btn-default">New</a> -->
+				  <a href="index.php?view=add" class="btn btn-default">New</a>
 					<?php
 					if($_SESSION['ADMIN_ROLE']=='Administrator'){
-					// echo '<button type="submit" class="btn btn-default" name="delete"><span class="glyphicon glyphicon-trash"></span> Delete Selected</button'
+					echo '<button type="submit" class="btn btn-default" name="delete"><span class="glyphicon glyphicon-trash"></span> Delete Selected</button>'
 					; }?>
 				</div>
 			
