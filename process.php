@@ -95,6 +95,8 @@ function doInsert($jobid=0,$fileid=0) {
 			$applicant->EMAILADDRESS = $_POST['EMAILADDRESS'];
 			$applicant->CONTACTNO = $_POST['TELNO'];
 			$applicant->DEGREE = $_POST['DEGREE'];
+			$applicant->Experience = $_POST['Experience'];
+			$applicant->Background = $_POST['Background'];
 			$applicant->create();
 
 
@@ -185,6 +187,8 @@ function doRegister(){
 			$applicant->EMAILADDRESS = $_POST['EMAILADDRESS'];
 			$applicant->CONTACTNO = $_POST['TELNO'];
 			$applicant->DEGREE = $_POST['DEGREE'];
+			$applicant->Experience = $_POST['Experience'];
+			$applicant->Background = $_POST['Background'];
 			$applicant->create();
 
 

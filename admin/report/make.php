@@ -60,9 +60,10 @@ if (!isset($_SESSION['ADMIN_USERID'])){
                                     <th>First Name</th>
                                     <th>Last Name</th>
                                     <th>Email</th>
-                                    <th>AGE</th>
                                     <th>SEX</th>
-                                    <th>ADDRESS</th>
+                                    <th>Experience</th>
+                                    <th>Background</th>
+                                   
                                 </tr>
                             </thead>
                             <tbody>
@@ -72,7 +73,7 @@ if (!isset($_SESSION['ADMIN_USERID'])){
                                     if(isset($_GET['search']))
                                     {
                                         $filtervalues = $_GET['search'];
-                                        $query = "SELECT * FROM tblapplicants WHERE CONCAT(FNAME,LNAME,EMAILADDRESS,AGE,SEX,ADDRESS_) LIKE '%$filtervalues%' ";
+                                        $query = "SELECT * FROM tblapplicants WHERE CONCAT(FNAME,LNAME,EMAILADDRESS,SEX,Experience,Background) LIKE '%$filtervalues%' ";
                                         $query_run = mysqli_query($con, $query);
 
                                         if(mysqli_num_rows($query_run) > 0)
@@ -85,9 +86,10 @@ if (!isset($_SESSION['ADMIN_USERID'])){
                                                     <td><?= $items['FNAME']; ?></td>
                                                     <td><?= $items['LNAME']; ?></td>
                                                     <td><?= $items['EMAILADDRESS']; ?></td>
-                                                    <td><?= $items['AGE']; ?></td>
                                                     <td><?= $items['SEX']; ?></td>
-                                                    <td><?= $items['ADDRESS_']; ?></td>
+                                                    <td><?= $items['Experience']; ?></td>
+                                                    <td><?= $items['Background']; ?></td>
+                                                    
                                                 </tr>
                                                 <?php
                                             }
@@ -108,6 +110,7 @@ if (!isset($_SESSION['ADMIN_USERID'])){
                 </div>
             </div>
         </div>
+        <button onclick="this.style.display='none' ;document.body.offsetHeight;window.print();this.style.display='inline';  ">Print</button>
     </div>
 
     <script src="../plugins/jQuery/jQuery-2.1.4.min.js"></script>

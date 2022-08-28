@@ -34,6 +34,8 @@ video {
   display: inline-block;
   vertical-align: baseline;
 }
+
+.btn22 {background-color: #008CBA;} /* Blue */
 audio:not([controls]) {
   display: none;
   height: 0;

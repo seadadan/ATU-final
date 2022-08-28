@@ -10,7 +10,7 @@
 					"FNAME">Firstname:</label>
 
 					<div class="col-md-8">
-					  <input name="JOBID" type="hidden" value="<?php echo $_GET['job'];?>" >
+					  <!-- <input name="JOBID" type="hidden" value="<?php echo $_GET['job'];?>"> -->
 					   <input class="form-control input-sm" id="FNAME" name="FNAME" placeholder=
 					      "Firstname" type="text" value=""  onkeyup="javascript:capitalize(this.id, this.value);" autocomplete="off">
 					</div>
@@ -224,6 +224,30 @@
 			      <input name="deptid" type="hidden" value="">
 			      <input  class="form-control input-sm" id="DEGREE" name="DEGREE" placeholder=
 			          "Educational Attainment"    onkeyup="javascript:capitalize(this.id, this.value);" autocomplete="off">
+			      </div>
+			  </div>
+			</div>  
+			<div class="form-group">
+			  <div class="col-md-8">
+			    <label class="col-md-4 control-label" for=
+			    "DEGREE">Experience:</label>
+
+			    <div class="col-md-8">
+			      <input name="deptid" type="hidden" value="">
+			      <input  class="form-control input-sm" id="Experience" name="Experience" placeholder=
+			          "Experience"    onkeyup="javascript:capitalize(this.id, this.value);" autocomplete="off">
+			      </div>
+			  </div>
+			</div>  
+			<div class="form-group">
+			  <div class="col-md-8">
+			    <label class="col-md-4 control-label" for=
+			    "DEGREE">Background:</label>
+
+			    <div class="col-md-8">
+			      <input name="deptid" type="hidden" value="">
+			      <input  class="form-control input-sm" id="Background" name="Background" placeholder=
+			          "Background"    onkeyup="javascript:capitalize(this.id, this.value);" autocomplete="off">
 			      </div>
 			  </div>
 			</div>  

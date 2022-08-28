@@ -102,7 +102,7 @@ global $mydb;
 	<p>Applicant Infomation</p> 
 	<h3> <?php echo $appl->LNAME. ', ' .$appl->FNAME . ' ' . $appl->MNAME;?></h3>
 	<ul> 
-		<li>Address : <?php echo $appl->ADDRESS; ?></li>
+		<li>Address : <?php echo $appl->ADDRESS_; ?></li>
 		<li>Contact No. : <?php echo $appl->CONTACTNO;?></li>
 		<li>Email Address. : <?php echo $appl->EMAILADDRESS;?></li>
 		<li>Sex: <?php echo $appl->SEX;?></li>

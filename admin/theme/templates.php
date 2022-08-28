@@ -51,9 +51,9 @@
     <!-- Logo -->
     <a href="<?php echo web_root;?>/admin/" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
-      <span class="logo-mini" ><b>Shaqo Raadis</b></span>
+      <span class="logo-mini" ><b>Shaqo DOON</b></span>
       <!-- logo for regular state and mobile devices -->
-      <span class="logo-lg"><b>Shaqo Raadis</b></span>
+      <span class="logo-lg"><b>Shaqo DOON</b></span>
     </a>
     <!-- Header Navbar: style can be found in header.less -->
     <nav class="navbar navbar-static-top" role="navigation">
@@ -270,7 +270,7 @@
     <div class="pull-right hidden-xs">
       
     </div>
-    <strong>Copyright &copy; 2021 <a href="#">Shaqo Raadis</a>.</strong> All rights
+    <strong>Copyright &copy; 2022 <a href="#">Shaqo DOON</a>.</strong> All rights
     reserved.
   </footer>
 
@@ -294,7 +294,7 @@
       <script type="text/javascript" language="javascript" src="<?php echo web_root; ?>plugins/input-mask/jquery.inputmask.date.extensions.js"></script> 
       <script type="text/javascript" language="javascript" src="<?php echo web_root; ?>plugins/input-mask/jquery.inputmask.extensions.js"></script> 
 
-   <!--      <script src="<?php echo web_root; ?>admin/js/jquery.dataTables.min.js"></script>
+        <!-- <script src="<?php echo web_root; ?>admin/js/jquery.dataTables.min.js"></script>
 <script src="<?php echo web_root; ?>admin/js/dataTables.bootstrap.min.js"></script>
  <script type="text/javascript" src="<?php echo web_root; ?>js/jquery-1.10.2.js"></script>       
         <script type="text/javascript" src="<?php echo web_root; ?>js/jquery.mixitup.min.js" ></script>

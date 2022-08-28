@@ -46,8 +46,8 @@
     <div class="container">
       <div class="row">
         <div class="col-md-10 col-sm-9">
-          <h3>Partner with Business Leaders</h3>
-          <p>Development of successful, long term, strategic relationships between customers and suppliers, based on achieving best practice and sustainable competitive advantage. In the business partner model, HR professionals work closely with business leaders and line managers to achieve shared organisational objectives.</p>
+          <h3>Waad Guulaysanaysaa Hays Dhiibin!</h3>
+          <p>Tijaabo kasta oo aad sameysaa waa cashar nolosha aad ka baranayso sidaa awgeed ma wanaagsana inaad ku hakato, tijaabooyinka hordhaca sababtoo ah isku day kastaa guul ma keeno ee wuxuu ku siiyaa wadada guusha ugu dhaw. Ku celi Mar Labaad waad guulaysanaysan doontaa!.</p>
         </div>
        <!--  <div class="col-md-2 col-sm-3">
           <a href="#" class="btn btn-primary">Read More</a>
@@ -120,7 +120,7 @@
   <section id="content-3-10" class="content-block data-section nopad content-3-10">
   <div class="image-container col-sm-6 col-xs-12 pull-left">
     <div class="background-image-holder">
-
+   
     </div>
   </div>
 
@@ -150,13 +150,13 @@
               <div class="col-md-4">
                 <!-- Heading and para -->
                 <div class="block-heading-two">
-                  <h3><span>Programes</span></h3>
+                  <h3><span>Favorite Quotes</span></h3>
                 </div>
-                <p>Sed ut perspiciaatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur. <br><br>Sed ut perspiciaatis iste natus error sit voluptatem probably haven't heard of them accusamus.</p>
+                <p> "In this world, wherever there is light - there are also shadows. As long as the concept of winners exists, there must also be losers. The selfish desire of wanting to maintain peace causes wars, and hatred is born to protect love."</p>
               </div>
               <div class="col-md-4">
                 <div class="block-heading-two">
-                  <h3><span>Latest News</span></h3>
+                  <h3><span>Inspirational Quotes</span></h3>
                 </div>    
                 <!-- Accordion starts -->
                 <div class="panel-group" id="accordion-alt3">
@@ -166,14 +166,14 @@
                    <div class="panel-heading">
                     <h4 class="panel-title">
                       <a data-toggle="collapse" data-parent="#accordion-alt3" href="#collapseOne-alt3">
-                      <i class="fa fa-angle-right"></i> Accordion Heading Text Item # 1
+                      <i class="fa fa-angle-right"></i> Carol Burnett
                       </a>
                     </h4>
                    </div>
                    <div id="collapseOne-alt3" class="panel-collapse collapse">
                     <!-- Panel body -->
                     <div class="panel-body">
-                      Sed ut perspiciaatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
+                    "When you have a dream, you've got to grab it and never let go."
                     </div>
                    </div>
                   </div>
@@ -181,13 +181,14 @@
                    <div class="panel-heading">
                     <h4 class="panel-title">
                       <a data-toggle="collapse" data-parent="#accordion-alt3" href="#collapseTwo-alt3">
-                      <i class="fa fa-angle-right"></i> Accordion Heading Text Item # 2
+                      <i class="fa fa-angle-right"></i> Audrey Hepburn
                       </a>
                     </h4>
                    </div>
                    <div id="collapseTwo-alt3" class="panel-collapse collapse">
                     <div class="panel-body">
-                      Sed ut perspiciaatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
+                    "Nothing is impossible. The word itself says 'I'm possible!'"
+
                     </div>
                    </div>
                   </div>
@@ -195,13 +196,13 @@
                    <div class="panel-heading">
                     <h4 class="panel-title">
                       <a data-toggle="collapse" data-parent="#accordion-alt3" href="#collapseThree-alt3">
-                      <i class="fa fa-angle-right"></i> Accordion Heading Text Item # 3
+                      <i class="fa fa-angle-right"></i> Michael Altshuler
                       </a>
                     </h4>
                    </div>
                    <div id="collapseThree-alt3" class="panel-collapse collapse">
                     <div class="panel-body">
-                      Sed ut perspiciaatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
+                    "The bad news is time flies. The good news is you're the pilot."
                     </div>
                    </div>
                   </div>
@@ -209,13 +210,13 @@
                    <div class="panel-heading">
                     <h4 class="panel-title">
                       <a data-toggle="collapse" data-parent="#accordion-alt3" href="#collapseFour-alt3">
-                      <i class="fa fa-angle-right"></i> Accordion Heading Text Item # 4
+                      <i class="fa fa-angle-right"></i>  Amal Clooney
                       </a>
                     </h4>
                    </div>
                    <div id="collapseFour-alt3" class="panel-collapse collapse">
                     <div class="panel-body">
-                      Sed ut perspiciaatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
+                    "Be courageous. Challenge orthodoxy. Stand up for what you believe in. When you are in your rocking chair talking to your grandchildren many years from now, be sure you have a good story to tell."
                     </div>
                    </div>
                   </div>
@@ -226,13 +227,13 @@
               
               <div class="col-md-4">
                 <div class="block-heading-two">
-                  <h3><span>Testimonials</span></h3>
+                  <h3><span>Personal Quotes</span></h3>
                 </div>  
                      <div class="testimonials">
                     <div class="active item">
-                      <blockquote><p>Lorem ipsum dolor met consectetur adipisicing. Aorem psum dolor met consectetur adipisicing sit amet, consectetur adipisicing elit, of them jean shorts sed magna aliqua. Lorem ipsum dolor met.</p></blockquote>
+                      <blockquote><p> "Wake up to reality! Nothing ever goes as planned in this world. The longer you live, the more you realize that in this reality, only pain, suffering, and futility exist."</p></blockquote>
                       <div class="carousel-info">
-                      <img src="<?php echo web_root; ?>/dist/img/majo.jpg" alt="" class="pull-left" />
+                      <img src="<?php echo web_root; ?>/dist/img/siciid.jpeg" alt="" class="pull-left" />
                       <!-- <img alt="" src="/dist/img/user3-128x128.jpg" class="pull-left"> -->
                       <div class="pull-left">
                         <span class="testimonials-name">sead adan jama</span>
